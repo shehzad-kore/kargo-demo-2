@@ -1,6 +1,6 @@
 namespace: test
 image:
-  repository: nginx
+  repository: us-central1-docker.pkg.dev/gcp-iot-core-361019/ae-omnicore-dev-infra/nginx
   tag: latest
   pullPolicy: IfNotPresent
 configMapData:
