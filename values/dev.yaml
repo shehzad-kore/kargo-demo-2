@@ -1,4 +1,8 @@
 namespace: dev
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
 configMapData:
   html: |
     <!DOCTYPE html>
