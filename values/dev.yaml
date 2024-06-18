@@ -1,7 +1,7 @@
 namespace: dev
 image:
   repository: us-central1-docker.pkg.dev/gcp-iot-core-361019/ae-omnicore-dev-infra/nginx
-  tag: latest
+  tag: '1'
   pullPolicy: IfNotPresent
 configMapData:
   html: |
